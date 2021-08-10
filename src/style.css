@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
 
 .main {
-  width: 500px;
+  width: 700px;
   line-height: 25px;
   border-radius: 15px;
   background-color: #058042;
@@ -20,7 +20,7 @@
   padding: 15px;
   color: rgb(221, 19, 19);
   font-family: "Recursive", sans-serif;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -54,7 +54,7 @@
   padding: 15px;
   color: rgb(240, 122, 26);
   font-family: "Recursive", sans-serif;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 600;
 }
 

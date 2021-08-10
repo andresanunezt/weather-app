@@ -33,7 +33,7 @@ const WeatherCard = ({ weatherData }) => (
           Sunrise:
           {new Date(weatherData.sys.sunrise * 1000).toLocaleTimeString("en-US")}
         </p>
-        {console.log(weatherData.sys.sunset * 1000)},
+        {console.log(weatherData.sys.sunset * 1000)}
         {console.log(weatherData.sys.sunset)}
         <p className="sunrise-sunset">
           Sunset:{" "}
