@@ -2,13 +2,19 @@ import React from "react";
 import "../style.css";
 import moment from "moment";
 import { Card } from "semantic-ui-react";
+import RefreshButton from "./RefreshButton";
 
 const WeatherCard = ({ weatherData }) => (
-  <Card>
+  <Card className="centered">
     {console.log(weatherData)}
     {/* <Card.Content> */}
     <div className="main">
-      <Card.Header className="header">{weatherData.name}</Card.Header>
+      <Card.Header className="header">
+        <div className="flex">
+          {weatherData.name}
+          <RefreshButton />
+        </div>
+      </Card.Header>
 
       <div className="flex">
         <p className="day">
@@ -18,8 +24,8 @@ const WeatherCard = ({ weatherData }) => (
       </div>
       <br></br>
       <div className="flex">
-        <p className="temp">Temprature: {weatherData.main.temp} C°</p>
-        <p className="temp">Feels Like: {weatherData.main.feels_like} C°</p>
+        <p className="stats">Temprature: {weatherData.main.temp} C°</p>
+        <p className="stats">Feels Like: {weatherData.main.feels_like} C°</p>
       </div>
       <br></br>
       <div className="flex">

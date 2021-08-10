@@ -31,6 +31,13 @@
   font-size: 18px;
 }
 
+.stats {
+  padding: 15px;
+  color: rgb(124, 12, 128);
+  font-family: "Recursive", sans-serif;
+  font-size: 18px;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -49,4 +56,17 @@
   font-family: "Recursive", sans-serif;
   font-size: 24px;
   font-weight: 600;
+}
+
+.button {
+  width: 35px;
+  height: 35px;
+  color: aliceblue;
+}
+
+.centered {
+  /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
