@@ -3,7 +3,7 @@ import "../style.css";
 import moment from "moment";
 import { Card } from "semantic-ui-react";
 
-const CardExampleCard = ({ weatherData }) => (
+const WeatherCard = ({ weatherData }) => (
   <Card>
     {console.log(weatherData)}
     {/* <Card.Content> */}
@@ -44,4 +44,4 @@ const CardExampleCard = ({ weatherData }) => (
   </Card>
 );
 
-export default CardExampleCard;
+export default WeatherCard;
